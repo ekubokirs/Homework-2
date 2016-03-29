@@ -36,6 +36,10 @@ Developer @GA in NYC
   padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
+.Facebook {
+  margin-right: 46%;
+}
+
 .alignleft {
   float: left;
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
@@ -70,6 +74,7 @@ header {
   background-size: cover;
   color: white;
   height: 400px;
+  text-align: center;
 }
 
 h1 {
@@ -83,6 +88,7 @@ h2 {
   font-weight: 600;
   font-size: 24px;
   text-align: center;
+  padding: 100px 100px 100px 100px;
 }
 
 .getItNow {
@@ -95,30 +101,30 @@ h2 {
 h3 {
   font-weight: 600;
   font-size: 20px;
+  padding: 20px 50px 10px 20px;
 }
 
 .Benefits {
   background-color: #f0efef;
-  height: 400px;
+  height: 300px;
   padding: 50px;
-}
-
-.Benefits p {
-  font-size: 13px;
   font-weight: 300;
+  font-size: 13px;
 }
 
 .Benefits ul {
-  font-size: 13px;
   font-weight: 300;
   list-style-type: circle;
-  text-indent: 50px;
-}
+  margin: 0 50px;
+/*  text-indent: 50px;
+*/}
 
 .Testimonials {
    color: white;
-   background: url(../images/testimonial_bg.jpg) no-repeat center top
+   background: url(../images/testimonial_bg.jpg) no-repeat center top;
    height: 300px;
+   text-align: center;
+   padding: 100px 100px 100px 100px;
 }
 
 .Testimonial {
@@ -133,14 +139,21 @@ h3 {
 }
 
 .signUpNow {
-  background: #f9e42e;
   background-color: #033048;
   color: white;
+}
+
+.button {
+  background: #f9e42e;
+  text-align: center;
+  height: 75px;
+  padding-top: 25px;
 }
 
 footer {
   height: 100px;
   background: #121212;
+  text-align: center;
 }
 
 .Footer {
@@ -153,7 +166,9 @@ footer {
   font-weight: 600;
   font-size: 9px;
   color: white;
+  text-align: center;
 }
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
